@@ -48,7 +48,7 @@ Developed by: SarvaeshDR
 RegisterNumber:  23072252
 
 */
-
+```
 Half Subtractor:
 
 module half_sub(output b,d, input x,y);
@@ -62,7 +62,7 @@ module full_sub(output d,b, input x,y,z);
 assign d = x^y^z;
 assign b = ~x&(y^z) y&z;
 endmodule
-
+```
 ## Output:
 
 ## Truthtable
